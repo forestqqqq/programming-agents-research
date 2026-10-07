@@ -1,0 +1,45 @@
+# ============ 私密 / 本地内容（公开仓库必须排除） ============
+# 本地私密目录：任何不想公开的内容放这里
+private/
+# 配置文件与凭据
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.keystore
+credentials*
+secrets.*
+*token*
+config.local.*
+*.local
+# 个人笔记/草稿（若需公开书稿，请保留下面注释；如需隐藏去掉注释）
+# book/
+
+# ============ 系统 / 编辑器 ============
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ============ 语言 / 工具运行时 ============
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+.turbo/
+
+# ============ 研究过程产物 ============
+*.log
+tmp/
+cache/
+*.tsbuildinfo
